@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50px);
+}
+
+.title {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+
+.data {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
